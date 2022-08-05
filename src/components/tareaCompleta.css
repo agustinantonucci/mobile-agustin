@@ -1,0 +1,21 @@
+
+.asunto {
+    font-size: 1.2rem;
+    color: #332f2f;
+    padding-bottom: 1vh;
+    width: 100%;
+    margin: 0px;
+  }
+  
+  .clienteT {
+    margin: 0px;
+    color: #00b33c;
+    font-size: 0.9rem;
+    padding-top: 1vh;
+    width: 100%;
+  }
+
+.fecha-hora {
+  font-size: 0.8rem;
+  color: #666;
+}

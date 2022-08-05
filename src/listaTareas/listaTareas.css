@@ -1,0 +1,193 @@
+.contenedor-principal {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  height: 50px;
+  min-height: 45px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.menu-principal {
+  width: 100vw;
+  height: 6vh;
+  min-height: 45px;
+  background-color: #ffffff;
+  font-size: 1.8rem;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+}
+
+.titulo {
+  color: #375f40;
+}
+
+.div-buscador {
+  margin: 5%;
+}
+
+.volver {
+  position: absolute;
+  left: 4vw;
+  color: #00B33C;
+}
+
+.botones {
+  width: 18%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  position: absolute;
+  right: 4vw;
+}
+
+.tarea {
+  font-size: 1rem;
+  color: #332f2f;
+  padding-bottom: 1%;
+  width: 100%;
+  margin: 0px;
+}
+
+.cliente {
+  margin: 0px;
+  color: #00b33c;
+  font-size: 0.9rem;
+  padding-top: 1%;
+  width: 100%;
+}
+
+.hora {
+  margin: 2% 5% 1% 5%;
+  align-self: flex-start;
+  color: #666666;
+  font-size: 0.875rem;
+}
+
+.fecha {
+  font-size: 1rem;
+  color: #375f40;
+  margin: 1rem 0px 0px 0px;
+  position: relative;
+  align-self: center;
+}
+
+.adm-tab-bar-item-active {
+    color: #00b33c;
+}
+
+.adm-list-item {
+    padding: 0px;
+    border-top: 1px solid #eeeeee;
+}
+
+.adm-list-item-content {
+    padding: 0px 0.7rem;
+    border-top: none;
+}
+
+.adm-list {
+  --border-bottom: none;
+}
+
+.adm-capsule-tabs-header {
+  position: fixed;
+  top: 3rem;
+  left: 0rem;
+  z-index: 999;
+  background-color: white;
+  width: 99.5vw;
+  padding: 12px 0px;
+}
+
+.adm-capsule-tabs-tab {
+  padding: 8px 0px;
+  border: 1px solid #00b33c;
+  color: #00b33c;
+  font-size: 0.8rem;
+}
+
+.adm-capsule-tabs-tab-wrapper{
+  padding: 0px 3px;
+}
+
+.adm-capsule-tabs-tab-active {
+  background-color: #00b33c;
+  color: white;
+}
+
+.contenedor-tareas {
+  padding-bottom: 50px;
+  /* top: 3rem; */
+  display: flex;
+  flex-direction: column;
+}
+
+.adm-capsule-tabs {
+  position: absolute;
+  top: 110px;
+  padding: 0px;
+  width: 100%;
+}
+
+.adm-capsule-tabs-content {
+  background-color: #f8f8f8;
+  padding: 0px;
+  display: flex;
+  width: 100%;
+}
+
+.botonesModal {
+  background-color: #00B33C;
+}
+
+.adm-button:not(.adm-button-default) {
+  --background-color: #00B33C;
+  --border-color: #00B33C
+}
+
+.adm-button:not(.adm-button-default).adm-button-fill-none {
+  --text-color: #00B33C;
+}
+
+.contenedor-modal {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.confirmacion {
+  font-size: 1.3rem;
+  color: #00B33C;
+}
+
+a {
+  color: #333333
+}
+
+.adm-calendar-cell.adm-calendar-cell-today {
+  color: #00B33C;
+}
+
+.adm-calendar-cell.adm-calendar-cell-selected.adm-calendar-cell.adm-calendar-cell-selected {
+  background: #00B33C;
+}
